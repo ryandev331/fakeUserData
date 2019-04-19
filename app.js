@@ -19,7 +19,7 @@ new Vue({
                 }).then(data => {
                     this.showIdx = ''
                     this.userDetail = []
-                    this.detailItem: [],
+                    this.detailItem = []
                     this.isActive = false
                     this.userData = data.reverse()
                     this.showColor()
