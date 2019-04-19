@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+--------------------- Fake User Data Table --------------------------
 
-You can use the [editor on GitHub](https://github.com/ryandev331/fakeUserData/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+藉由 https://jsonplaceholder.typicode.com/users API去抓取資料，並以Table頁面呈現
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+主要功能:
+1.按下Fetch button，會向API索取資料並以降冪方式呈現於下方表格欄位
+2.按下Parse button，會將username轉成小寫，並在mail欄位加上link(mailto)
+3.表格中detail按鈕可以顯示該user的其他詳細資訊於上方user info
+4.表格中delete按鈕可以刪除該user的欄位資料
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+框架使用:
+1.Vue
+2.Bootsrap
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ryandev331/fakeUserData/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+頁面網址可直接至:  https://ryandev331.github.io/fakeUserData/
